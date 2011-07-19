@@ -121,7 +121,7 @@ def genDepen(trinity):
 	dependencyStr='''
 <dependency>
 	<groupId>%s</groupId>
-	<artifactId>%s/artifactId>
+	<artifactId>%s</artifactId>
 	<version>%s</version>
 </dependency>'''
 	return dependencyStr % trinity
